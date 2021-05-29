@@ -17,7 +17,7 @@ menu(triple dot) -> settings -> Board type -> Digistump -> Digispark.
 3. Now, you can flash this to Digispark.
 menu(triple dot) -> Actions -> upload -> *upload over USB.
   
-* you get 3 seconds to press "upload over usb" just after inserting your Digispark and detection USB.  
+\* you get 3 seconds to press "upload over usb" just after inserting your Digispark and detection USB.  
   
 So, my suggetion is after getting into upload menu, insert Digispark wait until you see "USB detected",  
 then immediatly press "upload over USB".
