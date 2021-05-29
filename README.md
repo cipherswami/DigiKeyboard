@@ -7,9 +7,7 @@ https://github.com/digistump/DigistumpArduino/tree/master/digistump-avr/librarie
 Code is verbatim, just files are re-arranged and properties file is add, in order to make use in Arduino Droid.  
 
 # USAGE:
-
-> The code format is same as official DigiKeyboard.h, if not sure checkout the examples and original Documentation:  
-
+ The code format is same as official DigiKeyboard.h, if not sure checkout the examples and original Documentation:  
 
 1. After writing the code, compile it first.
 
