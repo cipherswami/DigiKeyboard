@@ -14,5 +14,10 @@ Code is verbatim, just files are re-arranged and properties file is add, in orde
 2. Set the board type to Digispark:
 menu(triple dot) -> settings -> Board type -> Digistump -> Digispark.
 
-2. Now, you can flash this to Digispark.
-menu(triple dot) -> Actions -> upload -> upload over USB.
+3. Now, you can flash this to Digispark.
+menu(triple dot) -> Actions -> upload -> *upload over USB.
+  
+* you get 3 seconds to press "upload over usb" just after inserting your Digispark and detection USB.  
+  
+So, my suggetion is after getting into upload menu, insert Digispark wait until you see "USB detected",  
+then immediatly press "upload over USB".
