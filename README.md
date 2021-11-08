@@ -15,7 +15,7 @@ Code is verbatim, just files are re-arranged and properties file is add, in orde
 menu(triple dot) -> settings -> Board type -> Digistump -> Digispark.
 
 3. Now, you can flash this to Digispark:  
-menu(triple dot) -> Actions -> upload -> *upload over USB.
+menu(triple dot) -> Actions -> upload -> *upload over USB.  
 OR Simply Shortcut icon on the top of the editor.
   
 \* you get 4 seconds to press "upload over usb" just after inserting your Digispark and detection USB.
