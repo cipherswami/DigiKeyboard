@@ -18,4 +18,4 @@ menu(triple dot) -> settings -> Board type -> Digistump -> Digispark.
 menu(triple dot) -> Actions -> upload -> *upload over USB.  
 OR Simply Shortcut icon on the top of the editor.
   
-\* you get 4 seconds to press "upload over usb" just after inserting your Digispark and detection USB.
+\* You get only 4 seconds to press "upload over usb" just after detection of  the Digispark.
