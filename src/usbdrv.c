@@ -237,7 +237,7 @@ char    i;
     do{                         /* if len == 0, we still copy 1 byte, but that's no problem */
         *p++ = *data++;
     }while(--i > 0);            /* loop control at the end is 2 bytes shorter than at beginning */
-    usbCrc16Append(&txStatus->buffer[1], len);
+    // usbCrc16Append(&txStatus->buffer[1], len);
     txStatus->len = len + 4;    /* len must be given including sync byte */
     DBG2(0x21 + (((int)txStatus >> 3) & 3), txStatus->buffer, len + 3);
 }
@@ -533,7 +533,7 @@ uchar       len;
     usbTxBuf[0] ^= USBPID_DATA0 ^ USBPID_DATA1; /* DATA toggling */
     len = usbDeviceRead(usbTxBuf + 1, wantLen);
     if(len <= 8){           /* valid data packet */
-        usbCrc16Append(&usbTxBuf[1], len);
+        // usbCrc16Append(&usbTxBuf[1], len);
         len += 4;           /* length including sync byte */
         if(len < 12)        /* a partial package identifies end of message */
             usbMsgLen = USB_NO_MSG;
